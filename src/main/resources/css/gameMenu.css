@@ -1,0 +1,11 @@
+.root {
+    -fx-background-size: auto, contain, auto, auto, auto;
+    -fx-background-position: bottom, bottom, top, bottom, bottom;
+    -fx-background-repeat: no-repeat, repeat-x, repeat-x, repeat-x, repeat-x, repeat-x, repeat-x;
+
+    -fx-background-image: url(../Backgrounds/game_background.png),
+    url("../Backgrounds/upper_clouds.png"),
+    url("../Backgrounds/clouds_1.png"),
+    url("../Backgrounds/clouds_2.png"),
+    url("../Backgrounds/rocks.png");
+}
